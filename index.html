@@ -4,66 +4,108 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Azent</title>
+	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
 	<link rel="stylesheet" href="reset.css">
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<section class="azent grid-m grid-d">
+	<header class="grid-m">
+		<div class="logo">
+			<img src="Images/logo.png" alt="logo">
+		</div>
+	</header>
+	<section class="azent grid-m grid-d bg-img color-white">
 		<div class="content grid-m">
-			<div class="title"></div>
-			<div class="list">
+			<div class="title font-30 font-bold">
+				<p>End to End Admission Support</p>
+			</div>
+			<div class="list font-18">
 				<ul>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
+					<li>Get admissions to 1540+ Universities in USA, UK, Canada, Australia, Ireland, New Zealand, Germany, Singapore and Dubai.</li>
+					<li>Receive smart university and course shortlisting</li>
+					<li>Receive guidance on essays and statement of purpose (SOP) writing</li>
+					<li>Receive benefits from our high visa success rate</li>
+					<li>Improve your chances of receiving a scholarship</li>
+					<li>Get support with education loans</li>
+					<li>Experience university campuses in virtual reality at our centres in Mumbai, Hyderabad and Chennai and Thane</li>
 				</ul>
 			</div>
 		</div>
 		<div class="form-area grid-m">
-			<div class="form-text"></div>
+			<div class="form-text">
+				<p>Register Now for Free Premium Counseling</p>
+			</div>
 			<form method="get" action="" class="grid-m">
 				<div class="name grid-m">
 					<div>
-						<input type="text" name="name" placeholder="First Name" required>
+						<input class="form-control" type="text" name="name" placeholder="First Name" required>
 					</div>
 					<div>
-						<input type="text" name="name" placeholder="Last Name" required>
+						<input class="form-control" type="text" name="name" placeholder="Last Name" required>
 					</div>
 				</div>
 				<div>
-					<input type="email" name="email" placeholder="Email Address" required>
+					<input class="form-control" type="email" name="email" placeholder="Email Address" required>
 				</div>
 				<div>
-					<input type="tel" name="number" placeholder="10 digit Mobile" required>
+					<input class="form-control" type="tel" name="number" placeholder="10 digit Mobile" required>
 				</div>
-				<div></div>
-				<div></div>
 				<div>
-					<button>GET ASSISTANCE</button>
+					<select name="year" required>
+						<option value="">Intake Year</option>
+						<option>November 2019</option>
+						<option>Feb 2020</option>
+						<option>November 2019</option>
+						<option>Feb 2020</option>
+						<option>November 2019</option>
+						<option>Feb 2020</option>
+					</select>
+				</div>
+				<div>
+					<select name="country" required>
+						<option value="">Target Country</option>
+						<option>USA</option>
+						<option>UK</option>
+						<option>Australia</option>
+						<option>USA</option>
+						<option>UK</option>
+						<option>Australia</option>
+						<option>USA</option>
+						<option>Others</option>
+					</select>
+				</div>
+				<div class="button">
+					<button class="btn">GET ASSISTANCE</button>
 				</div>
 			</form>
 		</div>
 	</section>
 
-	<section class="testimonials grid-m">
-		<div class="icon"></div>
+	<section class="testimonials grid-m p-all">
+		<div class="icon">
+			<i class="fas fa-quote-right"></i>
+		</div>
 		<input type="radio" name="controls" id="prev" checked>
 		<input type="radio" name="controls" id="next">
 		<div class="tab-area grid-m">
 			<div class="tab tab1 grid-m">
-				<label for="prev"></label>
-				<label for="next"></label>
+				<label for="prev"><i class="fas fa-chevron-left"></i></label>
+				<label for="next"><i class="fas fa-chevron-right"></i></label>
 				<div class="tab-content grid-m grid-t">
-					<div class="image"></div>
-					<div class="text">
-						<div></div>
-						<div></div>
-						<div></div>
+					<div class="image">
+						<img src="Images/Priyanka-Manikeri.jpeg" alt="pic">
+					</div>
+					<div class="text grid-m">
+						<div>
+							<p>My counsellor went the extra mile by breaking down every aspect of my application. I was always short on time so she even introduced me to a notary who could come to my office to pick up the documents and have it delivered directly to her!.</p>
+						</div>
+						<div class="font-bold">
+							<p>Priyanka Maneikeri</p>
+						</div>
+						<div>
+							<p>George Brown College, School of Management</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -73,9 +115,15 @@
 				<div class="tab-content grid-m">
 					<div class="image"></div>
 					<div class="text">
-						<div></div>
-						<div></div>
-						<div></div>
+						<div>
+							<p>Selecting the right university is the single-most important factor for the success of your academic and career goals. Thanks to the personalized and actionable guidance, even at late hours during application filling, I got admitted to my dream university.</p>
+						</div>
+						<div>
+							<p>Paahuni Khandelwal</p>
+						</div>
+						<div>
+							<p>University of Texas, Dallas (MS – CS)</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -85,9 +133,15 @@
 				<div class="tab-content grid-m">
 					<div class="image"></div>
 					<div class="text">
-						<div></div>
-						<div></div>
-						<div></div>
+						<div>
+							<p>Azent continually refined my shortlisted list of universities to cater to my needs and career goals, pushed my thinking on how I presented myself to the Admissions Committee and getting support from students and professors, at schools that I applied to.</p>
+						</div>
+						<div>
+							<p>Ankit Shah</p>
+						</div>
+						<div>
+							<p>Carnegie Mellon University (MS – CS)</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -97,125 +151,239 @@
 				<div class="tab-content grid-m">
 					<div class="image"></div>
 					<div class="text">
-						<div></div>
-						<div></div>
-						<div></div>
+						<div>
+							<p>Application process is a very stressful period but Azent made it an easy one for me. It helped me get into one of the best university under my field. The mock visa interviews conducted by him no doubt helped me in boosting my confidence. Overall, I am very happy by the type of service Azent has offered me.</p>
+						</div>
+						<div><p>Rakesh A Choudhary</p></div>
+						<div>
+							<p>SUNY Buffalo, New York</p>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="study grid-m">
-		<div class="head grid-m">
-			<div class="heading"></div>
-			<div class="description"></div>
+	<section class="study grid-m p-all">
+		<div class="head grid-m color-grey">
+			<div class="heading font-36 font-bold">
+				<p>Study Overseas Services</p>
+			</div>
+			<div class="description">
+				<p>We ensure your success in studying overseas</p>
+			</div>
 		</div>
 		<div class="content grid-m grid-d">
 			<div class="services grid-m">
-				<div class="image"></div>
+				<div class="image">
+					<img src="Images/icon-counseling-96px.png" alt="pic1">
+				</div>
 				<div class="text grid-m">
-					<div></div>
-					<div></div>
+					<div class="font-17 color-grey font-bold">
+						<p>Personalised Counselling</p>
+					</div>
+					<div class="desc font-14 color-grey">
+						<p>Informed counselling about study destinations & universities.</p>
+						<p>Student profiling to match eligibility criteria of universities.</p>
+						<p>Information & guidance on programmes & universities.</p>
+					</div>
 				</div>
 			</div>
 			<div class="services grid-m">
-				<div class="image"></div>
+				<div class="image">
+					<img src="Images/Icon-application-96px.png" alt="pic2">
+				</div>
 				<div class="text grid-m">
-					<div></div>
-					<div></div>
+					<div class="font-17 color-grey font-bold">
+						<p>Admission & Application Assistance</p>
+					</div>
+					<div class="desc font-14 color-grey">
+						<p>Help with preparing the application.</p>
+						<p>Guidance on essay writing.</p>
+						<p>Preparation for the interview process.</p>
+						<p>Guidance on education loans & scholarships.</p>
+						<p>Help with application fee waivers & on-the-spot offers.</p>
+					</div>
 				</div>
 			</div>
 			<div class="services grid-m">
-				<div class="image"></div>
+				<div class="image">
+					<img src="Images/Icon-predeparture-96px.png" alt="pic3">
+				</div>
 				<div class="text grid-m">
-					<div></div>
-					<div></div>
+					<div class="font-17 color-grey font-bold">
+						<p>Pre-departure Assistance</p>
+					</div>
+					<div class="desc font-14 color-grey">
+						<p>Pre-departure briefing.</p>
+						<p>Assistance with accommodation.</p>
+						<p>Airport pick-up.</p>
+						<p>Support with ticketing & Forex.</p>
+					</div>
 				</div>
 			</div>
 			<div class="services grid-m">
-				<div class="image"></div>
+				<div class="image">
+					<img src="Images/Icon-testprep-96px.png" alt="pic5">
+				</div>
 				<div class="text grid-m">
-					<div></div>
-					<div></div>
+					<div class="font-17 color-grey font-bold">
+						<p>Test Preparation</p>
+					</div>
+					<div class="desc font-14 color-grey"> 
+						<p>Training for IELTS & PTE exams</p>
+						<p>Authorised IELTS Registration Centre</p>
+					</div>
 				</div>
 			</div>
 			<div class="services grid-m">
-				<div class="image"></div>
+				<div class="image">
+					<img src="Images/Icon-visa-96px.png" alt="pic6">
+				</div>
 				<div class="text grid-m">
-					<div></div>
-					<div></div>
+					<div class="font-17 color-grey font-bold">
+						<p>Visa Processing</p>
+					</div>
+					<div class="desc font-14 color-grey">
+						<p>Guidance on student visa process.</p>
+						<p>Advice on financial documents</p>
+						<p>Help with preparation & filing of visa application</p>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="about grid-m">
-		<div class="heading"></div>
+	<section class="about grid-m p-all color-white">
+		<div class="heading font-36 font-bold">
+			<p>About Azent</p>
+		</div>
 		<div class="content grid-m">
-			<div></div>
-			<div></div>
-			<div></div>
+			<div>
+				<p>At Azent Overseas Education, we have a strong commitment to education and career development. We are passionate about bringing global education to the doorsteps of students all over India.</p>
+			</div>
+			<div>
+				<p>Integrity is essential to the admissions process and Azent is committed to the highest ethical standards. Our organization and our counselors pledge ethical and respectful behavior in our interactions with our students and their families.</p>
+			</div>
+			<div>
+				<p>We aspire to become the world’s leading global education advisory, unleashing potential, one student at a time.</p>
+			</div>
 		</div>
 	</section>
 
-	<section class="visit-us grid-m">
+	<section class="visit-us grid-m p-all">
 		<div class="head grid-m">
-			<div class="heading"></div>
-			<div class="description"></div>
+			<div class="heading font-36 font-bold color-grey">
+				<p>Visit Us</p>
+			</div>
+			<div class="description color-grey">
+				<p>Have questions about studying overseas? Visit any of our offices to meet with the top overseas counselors and get one-to-one counseling. For free.</p>
+			</div>
 		</div>
 		<div class="content grid-m grid-d">
-			<div class="location">
-				<div class="title">
-					<div class="icon"></div>
-					<div></div>
+			<div class="location grid-m">
+				<div class="title grid-m">
+					<div class="icon">
+						<i class="fas fa-map-marker-alt"></i>
+					</div>
+					<div class="font-18 font-bold color-grey">
+						<p>Mumbai</p>
+					</div>
 				</div>
-				<div class="map-area"></div>
-				<div class="address"></div>
+				<div class="map-area">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14008.110631978421!2d77.2065321711798!3d28.628933153090966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd37b741d057%3A0xcdee88e47393c3f1!2sConnaught+Place%2C+New+Delhi%2C+Delhi+110001!5e0!3m2!1sen!2sin!4v1562928960516!5m2!1sen!2sin" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+				<div class="address">
+					<p>Unit no 301, Prime Plaza, 38 – A, S.V. Road, Santacruz West, Mumbai 400054</p>
+					<p>Landmark: Above TBZ Jewellers</p>
+				</div>
 			</div>
-			<div class="location">
-				<div class="title">
-					<div class="icon"></div>
-					<div></div>
+			<div class="location grid-m">
+				<div class="title grid-m">
+					<div class="icon">
+						<i class="fas fa-map-marker-alt"></i>
+					</div>
+					<div class="font-18 font-bold color-grey">
+						<p>Chennai</p>
+					</div>
 				</div>
-				<div class="map-area"></div>
-				<div class="address"></div>
+				<div class="map-area">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14008.110631978421!2d77.2065321711798!3d28.628933153090966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd37b741d057%3A0xcdee88e47393c3f1!2sConnaught+Place%2C+New+Delhi%2C+Delhi+110001!5e0!3m2!1sen!2sin!4v1562928960516!5m2!1sen!2sin" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+				<div class="address">
+					<p>1st Floor, VTB Centre, Number 7, South Boag Road, T Nagar, Chennai 600017</p>
+					<p>Landmark: Behind Kalyan Jewellers</p>
+				</div>
 			</div>
-			<div class="location">
-				<div class="title">
-					<div class="icon"></div>
-					<div></div>
+			<div class="location grid-m">
+				<div class="title grid-m">
+					<div class="icon">
+						<i class="fas fa-map-marker-alt"></i>
+					</div>
+					<div class="font-18 font-bold color-grey">
+						<p>Hyderabad</p>
+					</div>
 				</div>
-				<div class="map-area"></div>
-				<div class="address"></div>
+				<div class="map-area">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14008.110631978421!2d77.2065321711798!3d28.628933153090966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd37b741d057%3A0xcdee88e47393c3f1!2sConnaught+Place%2C+New+Delhi%2C+Delhi+110001!5e0!3m2!1sen!2sin!4v1562928960516!5m2!1sen!2sin" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+				<div class="address">
+					<p>402, 4th floor, Sapphire Square, Somajiguda, Hyderabad 500082</p>
+					<p>Landmark: Above Khajana Jewellery</p>
+				</div>
 			</div>
-			<div class="location">
-				<div class="title">
-					<div class="icon"></div>
-					<div></div>
+			<div class="location grid-m">
+				<div class="title grid-m">
+					<div class="icon">
+						<i class="fas fa-map-marker-alt"></i>
+					</div>
+					<div class="font-18 font-bold color-grey">
+						<p>Thane</p>
+					</div>
 				</div>
-				<div class="map-area"></div>
-				<div class="address"></div>
+				<div class="map-area">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14008.110631978421!2d77.2065321711798!3d28.628933153090966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd37b741d057%3A0xcdee88e47393c3f1!2sConnaught+Place%2C+New+Delhi%2C+Delhi+110001!5e0!3m2!1sen!2sin!4v1562928960516!5m2!1sen!2sin" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+				<div class="address">
+					<p>1st Floor, Anand Cinema Building, Kopri Colony, Thane (East), Thane 400603</p>
+					<p>Landmark: Opposite Station</p>
+				</div>
 			</div>
-			<div class="location">
-				<div class="title">
-					<div class="icon"></div>
-					<div></div>
+			<div class="location grid-m">
+				<div class="title grid-m">
+					<div class="icon">
+						<i class="fas fa-map-marker-alt"></i>
+					</div>
+					<div class="font-18 font-bold color-grey">
+						<p>Bangalore</p>
+					</div>
 				</div>
-				<div class="address"></div>
+				<div class="address">
+					<p>91SpringBoard, 1st Floor, #45/3, Residency road, Ashok Nagar, Bengaluru 560025</p>
+					<p>Landmark: Behind Nagarjuna Hotel</p>
+				</div>
 			</div>
-			<div class="location">
-				<div class="title">
-					<div class="icon"></div>
-					<div></div>
+			<div class="location grid-m">
+				<div class="title grid-m">
+					<div class="icon">
+						<i class="fas fa-map-marker-alt"></i>
+					</div>
+					<div class="font-18 font-bold color-grey">
+						<p>Dubai</p>
+					</div>
 				</div>
-				<div class="address"></div>
+				<div class="address">
+					<p>Unit No – 405 A, Fortune Executive Tower, Plot No JLT PH2 T1A, </p>
+					<p>Jumeriah Lake Towers, Dubai, UAE</p>
+				</div>
 			</div>
 		</div>
 	</section>
 
 	<footer class="footer grid-m">
-		<div class="copyright"></div>
+		<div class="copyright">
+			<p>Copyright © 2018 Azent.com</p>
+		</div>
 	</footer>
 </body>
 </html>
