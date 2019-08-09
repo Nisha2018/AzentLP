@@ -1,0 +1,102 @@
+.grid-m{
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+.azent,.testimonials,.study,
+.about,.visit-us,.azent .content,
+.azent .form-area,.tab-area .tab .tab-content,
+.head,
+.content .services,.services .text{
+	grid-template-rows: auto auto;
+}
+
+.tab-area .tab .tab-content .text,.about .content,
+.content .location{
+	grid-template-rows: auto auto auto;
+}
+
+.footer{
+	grid-template-rows: auto;
+}
+
+.list ul{
+	grid-template-rows: repeat(7,auto);
+}
+
+.azent .form-area form,
+.visit-us .content{
+	grid-template-rows: repeat(6,auto);
+}
+
+.azent .form-area form .name,
+.location .title{
+	grid-template-columns: auto auto;
+	grid-template-rows: auto;
+}
+
+input[type=radio]{
+	display: none;
+}
+
+.tab-area .tab2,
+.tab-area .tab3,.tab-area .tab4{
+	display: none;
+}
+
+.testimonials .tab-area{
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-template-rows: auto;
+}
+
+.testimonials .tab-area .tab-content{
+	grid-column: 2;
+}
+
+.study .content{
+	grid-template-rows: repeat(5,auto);
+}
+
+
+@media screen and (min-width: 500px){
+	.grid-t{
+		display: grid;
+		grid-template-columns: auto auto;
+		grid-template-rows: auto;
+	}
+
+	.tab .tab-content{
+		grid-template-rows: auto auto auto;
+	}
+
+	.tab .tab-content .image{
+		grid-row: 1/span 3;
+		grid-column: 1;
+	}
+
+}
+
+
+@media screen and (min-width: 992px){
+	.grid-d{
+		display: grid;
+		grid-template-columns: auto auto auto;
+		grid-template-rows: auto;
+	}
+
+	.azent{
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: auto;
+	}
+
+	.study .content{
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: auto auto;
+	}
+
+	.visit-us .content{
+		grid-template-rows: auto auto;
+	}
+
+}	
+
