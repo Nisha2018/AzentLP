@@ -69,9 +69,24 @@ input[type=radio]{
 	display: none;
 }
 
-.tab-area .tab2,
+.tab-area .tab1,.tab-area .tab2,
 .tab-area .tab3,.tab-area .tab4{
 	display: none;
+}
+
+#current:checked ~ .tab-area .tab1{
+	display: grid;
+}
+
+#prev1:checked ~ .tab-area .tab4,
+#next1:checked ~ .tab-area .tab2,
+#prev2:checked ~ .tab-area .tab1,
+#next2:checked ~ .tab-area .tab3,
+#prev3:checked ~ .tab-area .tab2,
+#next3:checked ~ .tab-area .tab4,
+#prev4:checked ~ .tab-area .tab3,
+#next4:checked ~ .tab-area .tab1{
+	display: grid;
 }
 
 .testimonials .tab-area .tab{
@@ -79,11 +94,11 @@ input[type=radio]{
     grid-template-rows: auto auto auto auto;
 }
 
-.tab-area .tab label[for="prev"]{
+.tab-area .tab label{
 	grid-column: 1;
 }
 
-.tab-area .tab label[for="next"]{
+.tab-area .tab label.next{
 	grid-column: 3;
     right: 12px;
 }
@@ -292,6 +307,7 @@ body{
 .tab label i{
     font-size: 28px;
     color: #fff;
+    cursor: pointer;
 }
 
 .study{
