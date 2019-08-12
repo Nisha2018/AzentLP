@@ -153,16 +153,8 @@ body{
 	background-position: center; 
 }
 
-.bg-gray{
-	background: #e7e7e7;
-}
-
 .color-grey{
 	color: #20292f;
-}
-
-.color-light{
-    color: #888;
 }
 
 .color-white{
@@ -177,14 +169,6 @@ body{
 	font-size: 30px;
 }
 
-.font-26{
-	font-size: 26px;
-}
-
-.font-24{
-	font-size: 24px;
-}
-
 .font-20{
 	font-size: 20px;
 }
@@ -195,10 +179,6 @@ body{
 
 .font-16{
 	font-size: 16px;
-}
-
-.font-15{
-	font-size: 15px;
 }
 
 .font-14{
@@ -482,7 +462,7 @@ ul{
 
 	.testimonials .tab-area .tab{
 		grid-template-columns: 1fr 3fr 1fr;
-		grid-template-rows: auto auto auto auto;
+		grid-template-rows: auto;
 		padding: 0;
 	}
 
