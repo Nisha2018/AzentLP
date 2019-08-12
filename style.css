@@ -232,7 +232,8 @@ body{
 }
 
 .azent .form-area form label{
-	display: none;
+	visibility: hidden;
+    position: absolute;
 }
 
 
