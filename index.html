@@ -40,25 +40,21 @@
 			<form method="get" action="" class="grid-m" autocomplete="off">
 				<div class="name grid-m">
 					<div>
-						<label for="fname">First Name</label>
-						<input id="fname"  class="form-control" type="text" name="fname" placeholder="First Name" required>
+						<input class="form-control" type="text" name="fname" placeholder="First Name" aria-label="first name" required>
 					</div>
 					<div>
-						<label for="lname">Last Name</label>
-						<input id="lname" class="form-control" type="text" name="lname" placeholder="Last Name" required>
+						<input class="form-control" type="text" name="lname" placeholder="Last Name" aria-label="last name" required>
 					</div>
 				</div>
 				<div>
-					<label for="mail">Email Address</label>
-					<input id="mail" class="form-control" type="email" name="mail" placeholder="Email Address" required>
+					<input class="form-control" type="email" name="mail" placeholder="Email Address" aria-label="email" required>
 				</div>
 				<div>
-					<label for="mobile">Mobile</label>
-					<input id="mobile" class="form-control" type="tel" name="mobile" placeholder="10 digit Mobile" required>
+					<input class="form-control" type="tel" name="mobile" placeholder="10 digit Mobile" aria-label="number" required>
 				</div>
 				<div>
-					<label for="year">Year</label>
-					<select id="year" name="year" required>
+				
+					<select name="year" required aria-label="year">
 						<option value="">Intake Year</option>
 						<option>November 2019</option>
 						<option>Feb 2020</option>
@@ -69,8 +65,7 @@
 					</select>
 				</div>
 				<div>
-					<label for="country"></label>
-					<select id="country" name="country" required>
+					<select name="country" required aria-label="country">
 						<option value="">Target Country</option>
 						<option>USA</option>
 						<option>UK</option>
