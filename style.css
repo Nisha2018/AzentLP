@@ -348,47 +348,47 @@ select:focus{
 }
 
 .content .services:hover{
-    transform: scale(1.1,1.1);
+    transform: scale(1.005,1.005);
 }
 
 .content .services.blue{
-	box-shadow: 6px 6px 18px 0 #E8EAF6;
+    box-shadow: 0px 0px 3px 0 #E8EAF6;
 }
 
 .content .services.blue:hover{
-	box-shadow: 6px 6px 60px 0 #7986CB;
+    box-shadow: 5px 5px 15px -7px #7986CB;
 }
 
 .content .services.orange{
-	box-shadow: 6px 6px 18px 0 #FBE9E7;
+	box-shadow: 0px 0px 3px 0 #FBE9E7;
 }
 
 .content .services.orange:hover{
-    box-shadow: 6px 6px 60px 0 #FFCCBC;
+    box-shadow: 5px 5px 15px -7px #FFCCBC;
 }
 
 .content .services.pink{
-	box-shadow: 6px 6px 18px 0 #FCE4EC;
+	box-shadow: 0px 0px 3px 0 #FCE4EC;
 }
 
 .content .services.pink:hover{
-	box-shadow: 6px 6px 60px 0 #F8BBD0;
+	box-shadow: 5px 5px 15px -7px #F8BBD0;
 }
 
 .content .services.blue-light{
-	box-shadow: 6px 6px 18px 0 #E3F2FD;
+	box-shadow: 0px 0px 3px 0 #E3F2FD;
 }
 
 .content .services.blue-light:hover{
-    box-shadow: 6px 6px 60px 0 #B2DFDB;
+    box-shadow: 5px 5px 15px -7px #B2DFDB;
 }
 
 .content .services.green{
-    box-shadow: 6px 6px 18px 0 #E0F2F1;
+    box-shadow: 0px 0px 3px 0 #E0F2F1;
 }
 
 .content .services.green:hover{
-    box-shadow: 6px 6px 60px 0 #B2DFDB;
+    box-shadow: 5px 5px 15px -7px #B2DFDB;
 }
 
 .services .text .desc{
