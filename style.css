@@ -85,7 +85,6 @@ input[type=radio]{
 	display: none;
 }
 
-
 #toggle1:checked ~ .tab-area .tab1,
 #toggle2:checked ~ .tab-area .tab2,
 #toggle3:checked ~ .tab-area .tab3,
@@ -336,10 +335,6 @@ select:focus{
     cursor: pointer;
 }
 
-.labels label:hover{
-	background: #000;
-}
-
 .study{
 	grid-row-gap: 8rem;
     padding: 8rem 2rem 12rem;
@@ -349,7 +344,7 @@ select:focus{
     border-radius: 10px;
 	padding: 30px 20px;
     grid-row-gap: 2rem;
-    transition: transform 0.5s ease-in-out;
+    transition: transform 0.2s ease-in-out;
 }
 
 .content .services:hover{
@@ -487,33 +482,6 @@ ul{
 	    padding: 40px 30px;
 	}
 
-	.testimonials .labels{
-		display: none;
-	}
-
-	#toggle1:checked ~ .tab-area .tab1,
-	#toggle2:checked ~ .tab-area .tab2,
-	#toggle3:checked ~ .tab-area .tab3,
-	#toggle4:checked ~ .tab-area .tab4{
-		display: none;
-	}
-
-	#current:checked ~ .tab-area .tab1{
-	display: grid;
-	}
-
-	#prev1:checked ~ .tab-area .tab4,
-	#next1:checked ~ .tab-area .tab2,
-	#prev2:checked ~ .tab-area .tab1,
-	#next2:checked ~ .tab-area .tab3,
-	#prev3:checked ~ .tab-area .tab2,
-	#next3:checked ~ .tab-area .tab4,
-	#prev4:checked ~ .tab-area .tab3,
-	#next4:checked ~ .tab-area .tab1{
-		display: grid;
-	}
-
-
 	.study,.about{
 	    padding: 8rem 4rem 12rem;
 	}
@@ -559,7 +527,7 @@ ul{
 	.content .row1{
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: auto;
-	    grid-column-gap: 6rem;
+        grid-column-gap: 9rem;
 	}
 
 	.content .row2{
